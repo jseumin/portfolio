@@ -32,7 +32,7 @@ if (contactForm && responseDiv) {
     const makeWebhookUrl = "https://hook.us1.make.com/your_unique_webhook_id";
 
     try {
-      const response = await fetch(makeWebhookUrl, {
+      const response = await fetch('https://hook.eu1.make.com/qn2xqoxeggtnof365txue6s8jhflddp1', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
